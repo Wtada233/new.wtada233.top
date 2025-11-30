@@ -46,7 +46,7 @@ export const fontConfig = {
 			weight: 600,
 			display: "swap" as const,
 		},
-                "misans-semibold": {
+                "genshin": {
                         id: "genshin",
                         name: "genshin",
                         src: "/font.ttf",
