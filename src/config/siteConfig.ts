@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
 		// 留空以使用默认 favicon
 		{
 			src: "/assets/images/favicon.ico", // 图标文件路径
-			theme: "light", // 可选，指定主题 'light' | 'dark'
+			theme: "dark", // 可选，指定主题 'light' | 'dark'
 			sizes: "128x128", // 可选，图标大小
 		},
 	],
