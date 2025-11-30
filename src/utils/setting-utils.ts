@@ -54,7 +54,7 @@ export function resolveTheme(theme: LIGHT_DARK_MODE): LIGHT_DARK_MODE {
 
 export function getHue(): number {
 	// 检查是否在浏览器环境中
-	if (typeof localStorage === "undefined") {
+	if (typeof window === "undefined") {
 		return getDefaultHue();
 	}
 	const stored = localStorage.getItem("hue");
