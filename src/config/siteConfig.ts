@@ -98,7 +98,7 @@ export const siteConfig: SiteConfig = {
 			// 桌面背景图片
 			desktop: "/assets/images/demo-banner.png",
 			// 移动背景图片
-			mobile: "/assets/images/demo-banner-mobile.png",
+			mobile: "/assets/images/demo-banner.png",
 		},
 
 		// Banner模式特有配置
