@@ -2,7 +2,7 @@
 export const fontConfig = {
 	enable: true, // 启用自定义字体功能
 	preload: true, // 预加载字体文件以提高性能
-	selected: ["system"], // 当前选择的字体，支持多个字体组合
+	selected: ["genshin"], // 当前选择的字体，支持多个字体组合
 	fonts: {
 		// 系统字体
 		system: {
@@ -46,6 +46,14 @@ export const fontConfig = {
 			weight: 600,
 			display: "swap" as const,
 		},
+                "misans-semibold": {
+                        id: "genshin",
+                        name: "genshin",
+                        src: "/font.ttf",
+                        family: "HYWenHei 85W",
+                        weight: 600,
+                        display: "swap" as const,
+                },
 	},
 	fallback: [
 		"system-ui",
