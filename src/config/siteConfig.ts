@@ -26,7 +26,7 @@ export const siteConfig: SiteConfig = {
 	themeColor: {
 		hue: 240, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: true, // 对访问者隐藏主题色选择器
-		defaultMode: "system", // 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
+		defaultMode: "dark", // 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
 	},
 
 	favicon: [
@@ -52,11 +52,6 @@ export const siteConfig: SiteConfig = {
 
 	// 站点开始日期，用于统计运行天数
 	siteStartDate: "2025-11-23", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
-
-	// bangumi配置
-	bangumi: {
-		userId: "1163581", // 在此处设置你的Bangumi用户ID
-	},
 
 	// 文章页底部的"上次编辑时间"卡片开关
 	showLastModified: true,
