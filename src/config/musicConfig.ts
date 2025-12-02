@@ -6,7 +6,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
 
 	// 使用方式：'meting' 或 'local'
-	mode: "meting", // "meting" 使用 Meting API，"local" 使用本地音乐列表
+	mode: "local", // "meting" 使用 Meting API，"local" 使用本地音乐列表
 
 	// Meting API 配置
 	meting: {
@@ -42,20 +42,29 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 本地音乐配置（当 mode 为 'local' 时使用）
 	local: {
 		playlist: [
-			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.wav",
-				cover: "/assets/music/cover/109951169585655912.jpg",
-				lrc: "", // 歌词内容，支持 LRC 格式
-			},
+                                {
+                                        name: "Lemon",
+                                        artist: "米津玄師",
+                                        url: "/music/lemon/lemon.mp3",
+                                        cover:
+                                                "/music/lemon/lemon.jpg",
+                                        lrc: "[00:00.000]Lemon - 米津玄師 (よねづ けんし)[00:00.530]词：米津>
+                                },
+                                {
+                                        name: "让风告诉你",
+                                        artist: "花玲,喵☆酱,宴宁,kinsen",
+                                        url: "/music/demo/demo.mp3",
+                                        cover:
+                                                "/music/demo/demo.jpg",
+                                        lrc: "[00:00.000] 作词 : ChiliChill[00:00.281] 作曲 : ChiliChill[00:>
+                                },
 		],
 	},
 
 	// APlayer 配置选项
 	player: {
 		// 是否自动播放  浏览器可能会阻止，需用户交互一次网页后才自动播放
-		autoplay: false,
+		autoplay: true,
 
 		// 主题色
 		theme: "var(--btn-regular-bg)",
