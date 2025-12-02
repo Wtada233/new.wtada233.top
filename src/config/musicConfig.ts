@@ -48,7 +48,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
                                         url: "/music/lemon/lemon.mp3",
                                         cover:
                                                 "/music/lemon/lemon.jpg",
-                                        lrc: "[00:00.000]Lemon - 米津玄師 (よねづ けんし)[00:00.530]词：米津>
+                                        lrc: "[00:00.000]Lemon - 米津玄師 (よねづ けんし)[00:00.530]词：米津玄師[00:01.060]曲：米津玄師",
                                 },
                                 {
                                         name: "让风告诉你",
