@@ -17,7 +17,7 @@ const metingJsPath = config.meting?.jsPath
 		config.meting.jsPath.startsWith("https://")
 		? config.meting.jsPath
 		: url(config.meting.jsPath)
-	: "https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"; // 默认 CDN 路径
+	: "/assets/js/Meting.min.js"; // 默认 CDN 路径
 
 // 预处理本地音乐列表的路径（如果使用本地模式）
 const processedLocalPlaylist =
