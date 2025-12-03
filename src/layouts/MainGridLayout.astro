@@ -5,8 +5,6 @@ import LeftSideBar from "@components/layout/LeftSideBar.astro";
 import Navbar from "@components/layout/Navbar.astro";
 import RightSideBar from "@components/layout/RightSideBar.astro";
 import SideBar from "@components/layout/SideBar.astro";
-import Live2DWidget from "@components/widget/Live2DWidget.astro";
-import SpineModel from "@components/widget/SpineModel.astro";
 import type { MarkdownHeading } from "astro";
 import { Icon } from "astro-icon/components";
 import TypewriterText from "@/components/content/TypewriterText.astro";
@@ -389,8 +387,6 @@ const transparentClass = shouldEnableTransparency
         </div>
 
         <BackToTop></BackToTop>
-        <SpineModel></SpineModel>
-        {live2dModelConfig.enable && <Live2DWidget config={live2dModelConfig} />}
     </div>
 </div>
 
