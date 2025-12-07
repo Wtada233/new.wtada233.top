@@ -46,14 +46,14 @@ export const fontConfig = {
 			weight: 600,
 			display: "swap" as const,
 		},
-                "HYWenHei-85W": {
-                        id: "HYWenHei-85W",
-                        name: "HYWenHei 85W",
-                        src: "/font.ttf",
-                        family: "HYWenHei 85W",
-                        weight: 600,
-                        display: "swap" as const,
-                },
+		"HYWenHei-85W": {
+			id: "HYWenHei-85W",
+			name: "HYWenHei 85W",
+			src: "/font.ttf",
+			family: "HYWenHei 85W",
+			weight: 600,
+			display: "swap" as const,
+		},
 	},
 	fallback: [
 		"system-ui",
